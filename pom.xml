@@ -112,5 +112,19 @@
     </dependencies>
 
 
+    <build>
+        <plugins>
+            <!--自动打包成可执行jar-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
 
 </project>

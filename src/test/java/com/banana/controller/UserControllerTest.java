@@ -27,6 +27,7 @@ public class UserControllerTest {
 
     @Test
     public void index() throws Exception {
+        // TODO 整合druid后此代码运行报错
 //        mvc.perform(MockMvcRequestBuilders.get("/user/").accept(MediaType.APPLICATION_JSON))
 //                .andExpect(status().isOk())
 ////                .andExpect(content().string("\"Greetings from Spring Boot!\""));
