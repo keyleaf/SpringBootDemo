@@ -3,9 +3,9 @@ package com.banana.foundation.common;
 import com.banana.foundation.enums.BooleanType;
 import lombok.Data;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.GenerationType;
+//import javax.persistence.Id;
 import java.util.Date;
 
 /**
@@ -17,8 +17,8 @@ public class BaseEntity extends Page {
 
     private static final long serialVersionUID = 1L;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private BooleanType isDeleted;

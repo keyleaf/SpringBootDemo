@@ -3,7 +3,7 @@ package com.banana.foundation.common;
 import com.alibaba.fastjson.annotation.JSONField;
 import io.swagger.annotations.ApiModelProperty;
 
-import javax.persistence.Transient;
+//import javax.persistence.Transient;
 import java.io.Serializable;
 
 /**
@@ -20,38 +20,38 @@ public class Page implements Serializable {
 
     // 是否分页
     @JSONField(serialize = false)
-    @Transient
+//    @Transient
     private boolean pageFlag = false;
 
     // 默认从第一页开始
     @JSONField(serialize = false)
-    @Transient
+//    @Transient
     private int page = 1;
 
     // 每页10行
     @JSONField(serialize = false)
-    @Transient
+//    @Transient
     private int rows = 20;
 
     @JSONField(serialize = false)
-    @Transient
+//    @Transient
     @ApiModelProperty(hidden = true)
     private int start;
 
     // 排序
     @JSONField(serialize = false)
-    @Transient
+//    @Transient
     @ApiModelProperty(hidden = true)
     private String sort;
 
     // 升序或者降序
     @JSONField(serialize = false)
-    @Transient
+//    @Transient
     @ApiModelProperty(hidden = true)
     private String order;
 
     @JSONField(serialize = false)
-    @Transient
+//    @Transient
     @ApiModelProperty(hidden = true)
     private String condition;
 

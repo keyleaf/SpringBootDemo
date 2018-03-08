@@ -1,20 +1,18 @@
-package com.banana.vo;
+package com.banana.domain;
 
 import lombok.Data;
 
 /**
- * Created by TJ on 18/3/7.
+ * Created by TJ on 18/3/8.
  */
 @Data
-public class UserVO {
-
+public class User {
     private Long id;
 
     private String accountName;
 
     private String userName;
 
-    private String firstName, lastName;
 
     private String password;
 }
